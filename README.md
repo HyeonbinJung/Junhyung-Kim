@@ -15,12 +15,13 @@ Files
 - `app.js`     — EN/KO content (`data(lang)`, mirrors the design's `data()`), rendering, interactions
 - `assets/`    — headshot and resume PDF (see below)
 
-Assets to drop in
-- `assets/profile.jpg` — headshot, 168×208 or any 4:5 crop. Without it the hero
-  shows the dashed "Drop headshot" placeholder from the design.
-- `assets/Junhyung_Kim_Resume.pdf` — target of the "Resume PDF" button. Until
-  it exists that button 404s; you can generate it with the browser's
-  Print → Save as PDF (the print stylesheet is built for this).
+Assets
+- `assets/profile.jpg` — headshot (400×400; the 168×208 slot crops it to 4:5
+  with `object-fit:cover`). If the file is ever missing, the hero falls back to
+  the dashed "Drop headshot" placeholder from the design.
+- `assets/Junhyung_Kim_Resume.pdf` — **not committed yet.** Target of the
+  "Resume PDF" button; until it exists that button 404s. You can generate it
+  with the browser's Print → Save as PDF (the print stylesheet is built for this).
 
 Interactions
 - EN/KO toggle — re-renders in place, keeps scroll position and active tab, and
