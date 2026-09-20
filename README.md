@@ -19,9 +19,10 @@ Assets
 - `assets/profile.jpg` — headshot (400×400; the 168×208 slot crops it to 4:5
   with `object-fit:cover`). If the file is ever missing, the hero falls back to
   the dashed "Drop headshot" placeholder from the design.
-- `assets/Junhyung_Kim_Resume.pdf` — **not committed yet.** Target of the
-  "Resume PDF" button; until it exists that button 404s. You can generate it
-  with the browser's Print → Save as PDF (the print stylesheet is built for this).
+- `assets/Junhyung_Kim_Resume.pdf` — the 2-page resume, target of the "Resume
+  PDF" button. Drop a new file over it to update the download; no code change
+  needed. (The print stylesheet also lets you regenerate one from the page
+  itself with Print → Save as PDF.)
 
 Interactions
 - EN/KO toggle — re-renders in place, keeps scroll position and active tab, and

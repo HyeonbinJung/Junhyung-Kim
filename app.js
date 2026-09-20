@@ -8,7 +8,7 @@
    can reveal every section at once (see the @media print block). */
 
 const EMAIL = 'junhyung0865@gmail.com';
-const LINKEDIN = 'https://www.linkedin.com/in/hyeonbin-jung-a49b79274/';
+const LINKEDIN = 'https://www.linkedin.com/in/junhyung-kim-639229417/';
 const PDF_URL = 'assets/Junhyung_Kim_Resume.pdf';
 const PHOTO_URL = 'assets/profile.jpg';
 const LANG_KEY = 'jk-resume-lang';
